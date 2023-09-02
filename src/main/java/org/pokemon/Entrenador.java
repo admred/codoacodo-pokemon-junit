@@ -22,8 +22,10 @@ public class Entrenador {
         return false;
     }
     public Pokemon getPokemon(String pokemon){
-        for (Pokemon p : pokebola) {
-            if (p.equals(p.getNombre())) return p;
+        for(Pokemon p: pokebola){
+            if(pokemon.equals(p.getNombre())){
+                return p;
+            }
         }
         System.out.println(this.nombre + " no encuentra a " + pokemon + " en la pokebola...");
         return null;
@@ -34,6 +36,10 @@ public class Entrenador {
     }
 
     public void atrapar(Pokemon pokemon) {
+        if(!pokemon.estaVivo()) {
+            System.out.println(pokemon.getNombre()+ " este pokemon esta muerto!");
+            return;
+        }
         pokebola.add(pokemon);
     }
 

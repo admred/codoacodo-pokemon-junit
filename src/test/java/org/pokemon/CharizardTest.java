@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TestCharizard {
+public class CharizardTest {
 
     @Test
     void testCrearCharizard(){

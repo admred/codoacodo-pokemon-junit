@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TestPsydusk {
+public class PsyduskTest {
 
     @Test
     public void testCrearPsydusk(){

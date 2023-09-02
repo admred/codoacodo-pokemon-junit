@@ -3,7 +3,7 @@ package org.pokemon;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TestPikachu {
+public class PikachuTest {
 
     @Test
     void testCrearPikachu(){

@@ -2,8 +2,7 @@ package org.pokemon;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 class EntrenadorTest {
@@ -29,6 +28,7 @@ class EntrenadorTest {
         Pokemon pikachu = new Pikachu();
         ethan.atrapar(pikachu);
         ethan.entrenarPokemon(pikachu, "Lanzallamas");
+        assertTrue(pikachu.entiende("Lanzallamas"));
     }
 
     @Test

@@ -18,8 +18,8 @@ public class App {
         charizard.ataca(psyduck);
         charizard.ataca(psyduck);
 
-        silver.entrenarPokemon(psyduck,"Lanzallamas");
-        silver.entrenarPokemon(pikachu,"Lanzallamas");
-        ethan.entrenarPokemon(pikachu,"Lanzallamas");
+        silver.entrenarPokemon(psyduck, "Lanzallamas");
+        silver.entrenarPokemon(pikachu, "Lanzallamas");
+        ethan.entrenarPokemon(pikachu, "Lanzallamas");
     }
 }

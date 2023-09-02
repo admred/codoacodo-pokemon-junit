@@ -8,7 +8,7 @@ public class Psyduck extends Pokemon {
 
 
     @Override
-    public boolean entrenar(String ataque){
+    public boolean entrenar(String ataque) {
         System.out.println("Psyduck entrena pero no aprende nada");
         return true;
     }

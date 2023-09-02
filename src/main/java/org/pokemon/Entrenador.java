@@ -1,7 +1,6 @@
 package org.pokemon;
 
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 public class Entrenador {
@@ -21,9 +20,10 @@ public class Entrenador {
         System.out.println(nombre + " no encuentra a " + pokemon.getNombre() + " en la pokebola...");
         return false;
     }
-    public Pokemon getPokemon(String pokemon){
-        for(Pokemon p: pokebola){
-            if(pokemon.equals(p.getNombre())){
+
+    public Pokemon getPokemon(String pokemon) {
+        for (Pokemon p : pokebola) {
+            if (pokemon.equals(p.getNombre())) {
                 return p;
             }
         }
@@ -36,8 +36,8 @@ public class Entrenador {
     }
 
     public void atrapar(Pokemon pokemon) {
-        if(!pokemon.estaVivo()) {
-            System.out.println(pokemon.getNombre()+ " este pokemon esta muerto!");
+        if (!pokemon.estaVivo()) {
+            System.out.println(pokemon.getNombre() + " este pokemon esta muerto!");
             return;
         }
         pokebola.add(pokemon);

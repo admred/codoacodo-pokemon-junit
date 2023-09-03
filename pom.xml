@@ -10,7 +10,7 @@
 
     <name>pokemon</name>
     <description>A simple pokemon.</description>
-    <url>https://github.com/admred/pokemon</url>
+    <url>https://github.com/admred/codoacodo-pokemon-junit</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
